@@ -1,3 +1,15 @@
+/********************************************************************************/
+/* Probability Weighted Iterative Generalized Least Squares                   	*/
+/* for multivariate multilevel models - for longitudinal data                 	*/
+/* necessary to declare:							*/
+/* string varlist :  covariates 						*/
+/* dep: dependent variable							*/
+/* string varlist1: random effects 						*/
+/* string varlist2: time variables 						*/
+/* cluster_var: cluster variable						*/
+/* _wj_rep: cluster level weights						*/
+/* _wi_j : individual level weight						*/
+/******************************************************************************/
 version 9
 
 mata:
